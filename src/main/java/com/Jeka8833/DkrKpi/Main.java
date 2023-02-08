@@ -26,7 +26,9 @@ public class Main {
                 System.out.println("exit - Exit");
 
                 int selected = readInt(scanner, "Select: ");
+                System.out.println();
                 if (selected == 1) {
+                    System.out.println("Create new user:");
                     String name = readText(scanner, "Name: ");
                     String group = readText(scanner, "Group: ");
                     int score = readInt(scanner, "Score: ");

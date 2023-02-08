@@ -36,6 +36,7 @@ public class StudentDB {
                 database.students.add(new Student(UUID.randomUUID().toString(),
                         RANDOM.nextBoolean() ? "A" : "B", RANDOM.nextInt(5)));
             }
+            write();
         }
     }
 
